@@ -5,3 +5,5 @@
 
 ### 1-compiler
 	- The script file
+- **NB:**
+	- The main.c file is saved in the *$CFILE* by typing ```export CFILE=main.c``` in the shell prompt
