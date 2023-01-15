@@ -4,4 +4,4 @@
 	- The output should be save in the file _c_
 	
 - **NB:**
-	- The main.c file is saved in the variable _$CFILE_ by typing >export CFILE=main.c < in the shell prompt
+	- The main.c file is saved in the variable _$CFILE_ by typing `export CFILE=main.c` in the shell prompt
