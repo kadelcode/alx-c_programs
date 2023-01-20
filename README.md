@@ -5,3 +5,5 @@ ALX C programs containing all files and algorithms
 
 - [0x01-variables_if_else_while]() - Algorithms on python variables; if, else and while statements
 
+- [0x02-functions_nested_loops]() - Programs on the use of Functions and Nested Loops
+
