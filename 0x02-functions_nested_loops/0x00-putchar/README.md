@@ -2,4 +2,4 @@
 	- The program should return ```0```
 
 ### 0-putchar.c
-	- A program that prints ```_putchar```
+	- A program that prints **_putchar**
