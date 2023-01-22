@@ -2,7 +2,7 @@
 #define MAIN_H
 
 /* standard libraries */
-#include <unistd.lib>
+#include <unistd.h>
 
 /* function prototypes */
 int print_last_digit(int);
