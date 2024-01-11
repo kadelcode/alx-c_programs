@@ -1,16 +1,16 @@
 ## Resources
 **Read or watch:**
 
-- [Everything you need to know to start with C.pdf]() (You do not have to learn everything in there yet, but make sure you read it entirely first)
-- [Dennis Ritchie]()
-- [“C” Programming Language: Brian Kernighan]()
-- [Why C Programming Is Awesome]()
-- [Learning to program in C part 1]()
-- [Learning to program in C part 2]()
-- [Understanding C program Compilation Process]()
-- [Betty Coding Style]()
-- [Hash-bang under the hood]() (Look at only after you finish consuming the other resources)
-- [Linus Torvalds on C vs. C++]() (Look at only after you finish consuming the other resources)
+- [Everything you need to know to start with C.pdf](https://intranet.alxswe.com/rltoken/P01aLj9BDfDUOv-y9x82Yw) (You do not have to learn everything in there yet, but make sure you read it entirely first)
+- [Dennis Ritchie](https://en.wikipedia.org/wiki/Dennis_Ritchie)
+- [“C” Programming Language: Brian Kernighan](https://www.youtube.com/watch?v=de2Hsvxaf8M)
+- [Why C Programming Is Awesome](https://www.youtube.com/watch?v=smGalmxPVYc)
+- [Learning to program in C part 1](https://www.youtube.com/watch?v=rk2fK2IIiiQ)
+- [Learning to program in C part 2](https://www.youtube.com/watch?v=FwpP_MsZWnU)
+- [Understanding C program Compilation Process](https://www.youtube.com/watch?v=VDslRumKvRA)
+- [Betty Coding Style](https://github.com/alx-tools/Betty/wiki)
+- [Hash-bang under the hood](https://twitter.com/unix_byte/status/1024147947393495040?s=21) (Look at only after you finish consuming the other resources)
+- [Linus Torvalds on C vs. C++](http://harmful.cat-v.org/software/c++/linus) (Look at only after you finish consuming the other resources)
 
 **man or help**:
 - ```gcc```
@@ -23,7 +23,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 ### General
 - Why C programming is awesome
--Who invented C
+- Who invented C
 - Who are Dennis Ritchie, Brian Kernighan and Linus Torvalds
 - What happens when you type gcc main.c
 - What is an entry point
@@ -63,6 +63,7 @@ To run the Betty linter just with command ```betty <filename>```:
 - cd into the Betty directory
 - Install the linter with ```sudo ./install.sh```
 - ```emacs``` or ```vi``` a new file called ```betty```, and copy the script below:
+```
 #!/bin/bash
 # Simply a wrapper script to keep you from having to use betty-style
 # and betty-doc separately on every item.
@@ -83,6 +84,7 @@ for argument in "$@" ; do
     ${BIN_PATH}/${BETTY_STYLE} "$argument"
     ${BIN_PATH}/${BETTY_DOC} "$argument"
 done
-Once saved, exit file and change permissions to apply to all users with chmod a+x betty
-Move the betty file into /bin/ directory or somewhere else in your $PATH with sudo mv betty /bin/
-You can now type betty <filename> to run the Betty linter!
+```
+- Once saved, exit file and change permissions to apply to all users with ```chmod a+x betty```
+- Move the ```betty``` file into ```/bin/``` directory or somewhere else in your ```$PATH``` with ```sudo mv betty /bin/```
+You can now type ```betty <filename>``` to run the Betty linter!
