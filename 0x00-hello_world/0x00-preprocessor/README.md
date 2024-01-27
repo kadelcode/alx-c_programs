@@ -1,5 +1,5 @@
 ### 0-preprocessor - The script file
-- Write a script that runs a C file throught the preprocessor and save the result into another file
+- Write a script that runs a C file through the preprocessor and save the result into another file
 	- The C file name will be saved in the variable ```$CFILE```
 	- The output should be save in the file ```c```
 	
