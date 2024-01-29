@@ -1,42 +1,38 @@
 ## Resources
 **Read or watch**:
-Everything you need to know to start with C.pdf (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)
-Keywords and identifiers
-integers
-Arithmetic Operators in C
-If statements in C
-if…else statement
-Relational operators
-Logical operators
-while loop in C
-While loop
+- [Everything you need to know to start with C.pdf](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/misc/2022/4/e0ccf91eec6b977a9e00ed384dc285df9c2772e3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20240129%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240129T155236Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=04acb24c153a47c7a9de439e26ad47bbbd95f3f7468680ac6f5a12d37fc0f586) (You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”.)
+- [Keywords and identifiers]()
+- [integers]()
+- [Arithmetic Operators in C]()
+- [If statements in C]()
+- [if…else statement]()
+- [Relational operators]()
+- [Logical operators]()
+- [while loop in C]()
+- [While loop]()
+
 man or help:
+- ```ascii``` (You do not need to learn about ```scanf```, ```getc```, ```getchar```, ```EOF```, ```EXIT_SUCCESS```, ```time```, ```rand```, ```srand```, ```RAND_MAX```, ```for``` loops, ```do...while loops```, functions.)
 
-ascii (You do not need to learn about scanf, getc, getchar, EOF, EXIT_SUCCESS, time, rand, srand, RAND_MAX, for loops, do...while loops, functions.)
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://fs.blog/feynman-learning-technique/?fbclid=IwAR2K5_BGPVo0QjJXkOIIqNsqcXK4lTskPWJvA0asKQIGtCPWaQBdKmj1Ztg), without the help of Google:
 
-General
-What are the arithmetic operators and how to use them
-What are the logical operators (sometimes called boolean operators) and how to use them
-What the the relational operators and how to use them
-What values are considered TRUE and FALSE in C
-What are the boolean operators and how to use them
-How to use the if, if ... else statements
-How to use comments
-How to declare variables of types char, int, unsigned int
-How to assign values to variables
-How to print the values of variables of type char, int, unsigned int with printf
-How to use the while loop
-How to use variables with the while loop
-How to print variables using printf
-What is the ASCII character set
-What are the purpose of the gcc flags -m32 and -m64
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
+### General
+- What are the arithmetic operators and how to use them
+- What are the logical operators (sometimes called boolean operators) and how to use them
+- What the the relational operators and how to use them
+- What values are considered TRUE and FALSE in C
+- What are the boolean operators and how to use them
+- How to use the ```if```, ```if ... else``` statements
+- How to use comments
+- How to declare variables of types ```char```, ```int```, ```unsigned int```
+- How to assign values to variables
+- How to print the values of variables of type ```char```, ```int```, ```unsigned int``` with ```printf```
+- How to use the ```while``` loop
+- How to use variables with the ```while``` loop
+- How to print variables using ```printf```
+- What is the ```ASCII``` character set
+- What are the purpose of the ```gcc``` flags ```-m32``` and ```-m64```
 
 ## Requirements
 General
